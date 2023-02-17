@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Login.css";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AmazonLogo from "../../Amazon_Logo.png";
 import { useSelector, useDispatch } from "react-redux";
 import { loginInitiate } from "../../redux/actions";
@@ -12,7 +12,6 @@ const Login = () => {
   const { user } = useSelector((state) => state.data);
 
   let dispatch = useDispatch();
-  let history = useHistory();
  /* useEffect(() => {
     if (user) {
       history.push("/");
