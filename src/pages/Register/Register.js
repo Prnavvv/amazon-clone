@@ -15,11 +15,11 @@ const Register = () => {
 
   let dispatch = useDispatch();
 
-  useEffect(() => {
+ /* useEffect(() => {
     if (user) {
       history.push("/");
     }
-  }, [user, dispatch]);
+  }, [user, dispatch]);*/
 
   
 

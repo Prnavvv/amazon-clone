@@ -13,11 +13,11 @@ const Login = () => {
 
   let dispatch = useDispatch();
   let history = useHistory();
-  useEffect(() => {
+ /* useEffect(() => {
     if (user) {
       history.push("/");
     }
-  }, [user, dispatch]);
+  }, [user, dispatch]);*/
 
   const signIn = (e) => {
     e.preventDefault();
